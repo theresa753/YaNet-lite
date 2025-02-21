@@ -21,23 +21,23 @@ const ruleOptions = {
   microsoft: true, // 微软服务
   google: true, // Google服务
   openai: true, // 国外AI和GPT
-  spotify: true, // Spotify
+  spotify: false, // Spotify
   youtube: true, // YouTube
   bahamut: true, // 巴哈姆特/动画疯
   netflix: true, // Netflix网飞
   tiktok: true, // 国际版抖音
-  disney: true, // 迪士尼
+  disney: false, // 迪士尼
   pixiv: true, // Pixiv
-  hbo: true, // HBO
+  hbo: false, // HBO
   biliintl: true, // 哔哩哔哩东南亚
   tvb: true, // TVB
-  hulu: true, // Hulu
-  primevideo: true, // 亚马逊prime video
+  hulu: false, // Hulu
+  primevideo: false, // 亚马逊prime video
   telegram: true, // Telegram通讯软件
-  line: true, // Line通讯软件
-  whatsapp: true, // Whatsapp
+  line: false, // Line通讯软件
+  whatsapp: false, // Whatsapp
   games: true, // 游戏策略组
-  japan: true, // 日本网站策略组
+  japan: false, // 日本网站策略组
   tracker: true, // 网络分析和跟踪服务
   ads: true, // 常见的网络广告
 }
@@ -49,7 +49,7 @@ const ruleOptions = {
  * 倍率大于regions里的ratioLimit值的代理节点会被排除
  */
 const regionOptions = {
-  excludeHighPercentage: true,
+  excludeHighPercentage: false,
   regions: [
     {
       name: 'HK香港',
